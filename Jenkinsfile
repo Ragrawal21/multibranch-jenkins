@@ -6,10 +6,10 @@ pipeline{
         echo 'This is main branch'
       }
     }
-    post{
-      always{
-        echo 'Configured by Rahul'
-      }
+  }
+  post{
+    always{
+      echo 'Configured by Rahul'
     }
-  }  
+  }
 }
